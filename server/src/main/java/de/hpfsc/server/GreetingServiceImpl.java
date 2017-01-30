@@ -18,7 +18,7 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
       // the client.
       throw new IllegalArgumentException(
           "Name must be at least 4 characters long");
-System.out.println("hi2");
+
     }
 
     String serverInfo = getServletContext().getServerInfo();
